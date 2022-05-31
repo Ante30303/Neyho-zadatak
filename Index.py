@@ -24,7 +24,7 @@ options.add_experimental_option("excludeSwitches", ["enable-logging"])
 driver = webdriver.Chrome(options=options)
 driver.get("https://www.linkedin.com/")
 email = "testacc12801@gmail.com"
-password = "testACC12345"
+password = "testACC12345[]"
 
 # User Log-in
 driver.maximize_window()
